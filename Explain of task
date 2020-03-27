@@ -11,3 +11,19 @@ coordinates the same and their Y coordinates different only by one in magnitude 
 direction or in the Y direction, and not in the diagonal.
 – If a piece of terrain is partially (or fully) located (touching) at the edge(s) of the 512 × 512 grid, still it
 will count as an island.
+
+
+input.txt
+• First line is a single integer. (The L value)
+• The rest of the file has 262144 integers. Skip all the whitespace and read all of these integers and create a
+512x512 matrix. Integers are listed in row-order.
+output.txt
+• The first line is an integer (number of islands)
+• Each line after the first line holds coordinate information of a point on an island. (single point for each island)
+• Example: Here there are 5 islands. (#... are comments, which are not printed.)
+5
+x_coordinate1 y_coordinate1 #coordinate of a point which is on island1
+x_coordinate2 y_coordinate2 #coordinate of a point which is on island2
+x_coordinate3 y_coordinate3 #coordinate of a point which is on island3
+x_coordinate4 y_coordinate4 #coordinate of a point which is on island4
+x_coordinate5 y_coordinate5 #coordinate of a point which is on island5
