@@ -1,2 +1,1 @@
-# sarisinan1-hotmail.com
-Create island with c  programming
+# Create island with c  programming
